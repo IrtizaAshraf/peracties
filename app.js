@@ -101,3 +101,9 @@ console.log(newNum);
  var newNum = num--;
 
  console.log(num);
+
+
+
+ for(let i=1; ;i++) {
+      const data= i*5; console.log(data)
+        if(data>=30) break; }
