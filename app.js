@@ -133,13 +133,44 @@ const obt=[]
 
 submit.addEventListener('click', (e) =>{
     e.preventDefault();
- obt.push(user)
-    const user{
+
+
+    
+    const user = {
         "Name": names.value,
         "Father Name": fname.value,
         "email": email.value,
         "age": age.value
     }
-    console.log(user);
+    
+    obt.push(user)
 
+
+    console.log(user);
+    
 })
+
+
+
+
+// const names = document.querySelector('#name');
+// const fname = document.querySelector('#fname');
+// const age = document.querySelector('#age');
+// const email = document.querySelector('#email');
+// const submit = document.querySelector('#submit');
+
+// const obt = [];
+
+// submit.addEventListener('click', (e) => {
+//     e.preventDefault();
+
+//     const user = {
+//         "Name": names.value,
+//         "Father Name": fname.value,
+//         "email": email.value,
+//         "age": age.value
+//     };
+
+//     obt.push(user); // Push the user object into the array after it's created
+//     console.log(user);
+// });
