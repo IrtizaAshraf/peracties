@@ -228,8 +228,8 @@ const slicedNumbers = numbers.slice(2, 5);
 console.log(slicedNumbers); // Output: [3, 4, 5]
 
 
-var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
-const cityToCheck ="Santa Fe"
+// var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu"];
+// const cityToCheck = "Santa Fe"
 // if (cityToCheck === cleanestCities[0]) {
 //     alert("It's one of the cleanest cities");
 // }
@@ -249,26 +249,170 @@ const cityToCheck ="Santa Fe"
 
 // console.log(cleanestCities);
 
-for (var i = 0; i <= 4; i++) {
- if (cityToCheck === cleanestCities[i]) {
- alert("It's one of the cleanest cities");
- }
-}
-console.log([i]);
+// for (var i = 0; i <= 4; i++) {
+//     if (cityToCheck === cleanestCities[i]) {
+//         alert("It's one of the cleanest cities");
+//     }
+// }
+// console.log([i]);
 
-for (let i = 1; i <= 5; i++) {
-    console.log(i);
-}
+// for (let i = 1; i <= 5; i++) {
+//     console.log(i);
+// }
 
 
-var matchFound = "no";
- for (var i = 0; i <= 4; i++);
- if (cityToCheck === cleanestCities[i]) {
- matchFound = "yes";
- alert("It's one of the cleanest cities");
- }
+// var matchFound = "no";
+// for (var i = 0; i <= 4; i++);
+// if (cityToCheck === cleanestCities[i]) {
+//     matchFound = "yes";
+//     alert("It's one of the cleanest cities");
+// }
+
+// if (matchFound === "no") {
+//     alert("It's not on the list");
+// }
+// console.log(cityToCheck);
+
+
+
+// var cityToCheck = prompt("Enter your city");
+// cityToCheck = cityToCheck.toLowerCase();
+// var cleanestCities = ["cheyenne", "santa fe", "tucson", "great falls", "honolulu"];
+// for (var i = 0; i <= 4; i++) {
+//     if (cityToCheck == cleanestCities[i]) {
+//         alert("It's one of the cleanest cities");
+//     }
+//     else {
+
+//         alert("It's not include cleanest cities");
+//     }
+
+
+
+// console.log(cityToCheck);
+
+// var firstChar = cityToCheck.slice(0, 1);
+// var someChars = cityToCheck.slice(2);
+// var firstChar = cityToCheck.slice(0, 1);
+// var otherChars = cityToCheck.slice(1);
+// firstChar = firstChar.toUpperCase();
+// otherChars = otherChars.toLowerCase();
+// var cappedCity = firstChar + otherChars;
+
+// var cityToCheck = ["karachi", "parois", "landon"]; // Replace "exampleCity" with the actual city name you want to process
+
+// var firstChar = cityToCheck.slice(0, 1);
+// var otherChars = cityToCheck.slice(1);
+
+// firstChar = firstChar.toUpperCase();
+// otherChars = otherChars.toLowerCase();
+
+// var cappedCity = firstChar + otherChars;
+
+// console.log(cappedCity); // Output: "Examplecity"
+
+// const tlogext = "heloo world"
+// for (var i = 0; i < text.length; i++) {
+//     if (text.slice(i, i + 12) === "World War II") {
+//         text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+//     }
+//     console.log(i);
+// }
+// console.log(text);
+
+// firstChar = text.indexOf("World War II");
+// console.log(firstChar);
+
+// var text = "To be or not to be.";
+// var segIndex = text.indexOf("ot");
+// console.log(segIndex);
+
+
+
+// const text = text.replace("World War II", "the Second World War");
+
+// console.log(text);
+
+
+// var numberOfStars = Math.round(5);
  
- if (matchFound === "no") {
- alert("It's not on the list");
- }
- console.log(cityToCheck);
+// console.log(numberOfStars );
+
+// scoreAvg = Math.round(7);
+
+// console.log(scoreAvg);
+
+
+// var scoreAvg = Math.round(12.558437);
+// console.log(scoreAvg);
+
+// var scoreAvg = Math.ceil(-1.450000);
+// console.log(scoreAvg);
+
+var scoreAvg = Math.floor(4.5);
+console.log(scoreAvg);
+
+
+var randomNumber = Math.random(5);
+console.log(randomNumber);
+
+var bigDecimal = Math.random();
+var improvedNum = (bigDecimal * 6) + 1;
+var numberOfStars = Math.floor(improvedNum);
+console.log(numberOfStars);
+
+var total = 20000 + (20000.342245 * 1.5);
+console.log(total);
+var prettyTotal = total.toFixed(6);
+var currencyTotal = "$" + prettyTotal;
+var prettyTotal = total.toFixed(5);
+
+console.log(prettyTotal);
+
+
+var rightNow = new Date();
+console.log(rightNow);
+
+var dateString = rightNow.toString();
+console.log(dateString);
+
+var theDay = rightNow.getDay();
+console.log(theDay);
+
+var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+var now = new Date();
+var theDay = now.getDay();
+var nameOfToday = dayNames[theDay];
+
+console.log(nameOfToday);
+
+var d = new Date();
+var currentMonth = d.getMonth();
+var dayOfMonth = d.getDate();
+var currYr = d.getFullYear();
+var currentHrs = d.getHours();
+var currMins = d.getMinutes();
+var currSecs = d.getSeconds()
+
+var currMills = d.getMilliseconds();
+
+var millsSince = d.getTime( 3/5/2020);
+
+console.log(dayOfMonth,currYr,currentHrs, currMins, currSecs, currMills, millsSince);
+var millsSince = d.getTime();
+console.log(millsSince);
+
+var now = new Date();
+var theHr = now.getHours();
+var theMin = now.getMinutes();
+alert("time: " + theHr + ":" + theMin);
+
+
+tellTime();
+function tellTime() {
+ var now = new Date();
+ var theHr = now.getHours();
+ var theMin = now.getMinutes();
+ alert("Current time: "+ theHr + ":" + theMin);
+}
+    
